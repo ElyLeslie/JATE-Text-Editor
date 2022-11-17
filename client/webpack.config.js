@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Client Template'
+        title: 'JATE'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
@@ -29,8 +29,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Client Template',
-        short_name: 'Client',
+        name: 'JATE',
+        short_name: 'JATE',
         description: 'Say hello to old your data!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
