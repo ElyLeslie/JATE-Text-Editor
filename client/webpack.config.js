@@ -53,14 +53,14 @@ module.exports = () => {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
         },
-        {
-          test: /\.html$/,
-          use: [
-              {
-                  loader: "html-loader"
-              }
-          ]
-      },
+      //   {
+      //     test: /\.html$/,
+      //     use: [
+      //         {
+      //             loader: "html-loader"
+      //         }
+      //     ]
+      // },
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
