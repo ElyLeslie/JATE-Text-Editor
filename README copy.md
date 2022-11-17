@@ -54,7 +54,7 @@ The following animation demonstrates the application functionality:
 
 ![Demonstration of the finished Module 19 Challenge being used in the browser and then installed.](./Assets/00-demo.gif)
 
-The following image shows the application's `manifest.json` file:
+The following image shows the application's `manifest.json` file:98i7u
 
 ![Demonstration of the finished Module 19 Challenge with a manifest file in the browser.](./Assets/01-manifest.png)
 
